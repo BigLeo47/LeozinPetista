@@ -1,11 +1,12 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to bottom, #fff6d5, #ffecb3);
+  font‑family: 'Poppins', sans‑serif;
+  background: url('URL_DA_IMAGEM_AQUI') no‑repeat center/cover;
   color: #222;
-  text-align: center;
-  line-height: 1.6;
+  text‑align: center;
+  line‑height: 1.6;
 }
+
 
 header {
   background-color: #ffcc00;
