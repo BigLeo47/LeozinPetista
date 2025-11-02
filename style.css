@@ -1,12 +1,11 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: url('fundo.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: white; /* texto visível sobre o fundo */
+  color: #222; /* cor do texto padrão */
   text-align: center;
   line-height: 1.6;
 }
+
 
 
 
