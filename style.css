@@ -1,70 +1,53 @@
-body {
+bbody {
   margin: 0;
-  font-family: 'Trebuchet MS', sans-serif;
-  background-color: #f0f8ff;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #fff6d5, #ffecb3);
   color: #222;
+  text-align: center;
+  line-height: 1.6;
 }
 
 header {
   background-color: #ffcc00;
-  color: #000;
-  text-align: center;
-  padding: 20px 0;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-}
-
-.hero {
-  background: url('https://i.imgur.com/jfKqS1y.jpg') center/cover no-repeat;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
-  font-size: 1.5em;
-}
-
-section {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.personagens {
+  padding: 20px;
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 
-.card {
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  width: 200px;
-  padding: 15px;
+h1 {
+  margin: 0;
 }
 
-.card img {
-  width: 100%;
+#lang-toggle {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#lang-toggle:hover {
+  background: #444;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 footer {
   background-color: #222;
   color: white;
-  text-align: center;
-  padding: 15px 0;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-style: italic;
 }
-
