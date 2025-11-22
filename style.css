@@ -4,7 +4,7 @@ body {
   color: #222;
   text-align: center;
   line-height: 1.6;
-  background-color: #fdf5d4; /* cor de fundo sólida, sem imagens */
+  background-color: #fdf5d4; /* cor de fundo sólida */
 }
 
 /* HEADER */
@@ -12,15 +12,16 @@ header {
   background-color: #ffcc00;
   padding: 20px;
   display: flex;
-  justify-content: center; /* centraliza o título */
-  align-items: center;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;     /* centraliza verticalmente */
   flex-wrap: wrap;
   border-bottom: 4px solid #c00;
   box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  text-align: center;
 }
 
 h1 {
-  margin: 0;
+  margin: 0 auto;       /* centraliza o h1 dentro do header */
   font-size: 1.6em;
   font-weight: 800;
   letter-spacing: 1px;
