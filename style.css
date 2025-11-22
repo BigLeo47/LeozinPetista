@@ -36,8 +36,8 @@ section {
   background: rgba(255, 255, 255, 0.88);
   border-radius: 12px;
   margin-top: 25px;
-  border-left: 6px solid #ffcc00;
-  border-right: 6px solid #ffcc00;
+  border-left: 6px solid #ffcc00;    /*borda amarela legal/
+  border-right: 6px solid #ffcc00;   /*borda amarela legal/
   box-shadow: 0 0 15px rgba(0,0,0,0.12);
   transition: 0.3s;
 }
